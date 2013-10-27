@@ -1,0 +1,18 @@
+<table class="routes-table">
+  <thead>
+    <tr>
+        <td>Method</td>
+        <td>Path</td>
+        <td>Regex</td>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each}}
+        <tr>
+            <td>{{method}}</td>
+            <td>{{path}}</td>
+            <td>{{regex}}</td>
+        </tr>
+    {{/each}}
+  </tbody>
+</table>

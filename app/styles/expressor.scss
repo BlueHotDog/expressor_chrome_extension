@@ -1,0 +1,47 @@
+.top-bar {
+    //background-color: white;
+    //.top-bar-nav {
+    //    background: white;
+    //    a {
+    //        background: white
+    //    }
+    //}
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 4px #eee;
+    ////padding-left: 15px;
+    //.title-area {
+    //    h1 {
+    //        font-size: 0.9em;
+    //    }
+    //    a {
+    //        color: #EEEFF7;
+    //
+    //    }
+    //}
+}
+.column, .columns {
+    padding: 0px !important;
+}
+body {
+    padding-top: 25px !important;
+}
+table {
+    min-width: 100%;
+}
+.row {
+    min-width: 100% !important;
+}
+
+.clickable {
+    tbody {
+        tr:hover {
+            cursor: pointer;
+            background-color: lightgray;
+        }
+    }
+}
+
+
+.general-server-settings {
+
+}

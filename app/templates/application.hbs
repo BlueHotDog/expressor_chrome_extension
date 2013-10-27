@@ -1,0 +1,23 @@
+<div class="fixed">
+    <nav class="top-bar">
+        <ul class="title-area"></ul>
+        <section class="top-bar-section">
+            <ul class="right top-bar-nav">
+                <li class="divider"></li>
+                <li>{{#link-to 'settings'}} Settings {{/link-to}}</li>
+                <li class="divider"></li>
+                <li>{{#link-to 'expressRoutes'}} Routes {{/link-to}}</li>
+                <li class="divider"></li>
+                <li>{{#link-to 'middleware'}} Middleware {{/link-to}}</li>
+                <li class="divider"></li>
+                <li>{{#link-to 'expressRequests'}} Requests {{/link-to}}</li>
+                <!--<li><a href="#">Logs</a></li>-->
+            </ul>
+        </section>
+    </nav>
+</div>
+<section class="main">
+    <div class="row">
+        <div class="large-12 columns">{{outlet}}</div>
+    </div>
+</section>

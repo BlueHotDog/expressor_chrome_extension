@@ -1,0 +1,25 @@
+<div class="large-6 columns">
+    <table class="table table-condensed table-striped clickable">
+        <thead>
+        <tr>
+            <td>url</td>
+            <td>method</td>
+            <td>status</td>
+            <td>time</td>
+        </tr>
+        </thead>
+        <tbody>
+            {{#each}}
+            <tr {{action "viewDetails" id this}}>
+                <td>{{url}}</td>
+                <td>{{method}}</td>
+                <td>{{status}}</td>
+                <td>{{responseTime}}ms</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+<div class="large-6 columns">
+    {{view ExpressorChromeExtension.ExpressRequestDetailsView valueBinding="requestDetails"}}
+</div>

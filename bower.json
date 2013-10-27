@@ -1,0 +1,14 @@
+{
+  "name": "expressor-chrome-extension",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "",
+    "bootstrap-sass": "",
+    "ember": "",
+    "ember-data":"",
+    "handlebars": ""
+  },
+  "devDependencies": {
+    "ember-mocha-adapter": "0.1.1"
+  }
+}
